@@ -30,6 +30,7 @@ patch-2
  main
 
 		printf("Dice #1 is %i\n", rollADie1);
+		printf("Dice #1 is %i\n", rollADie1);
 		printf("Dice #2 is %i\n", rollADie2);
 		printf("Dice #2 is %i\n", rollADie2);
 
