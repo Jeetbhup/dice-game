@@ -1,14 +1,13 @@
  patch-2
  #include <stdio.h>
  #include <stdio.h>
-
+#include<math.h>
   #include <stdio.h>
-  #include <conio.h>
 
 main
- int main()  {
+ void main()  {
 
-	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
+	int rollADie, totalDice, key = 0, key2 = 0, end = 0;
  patch-1
 	srand(time(NULL));  // call thiss only once – seeds the random generators
 	srand(time(NULL));  // call thiss only once – seeds the random generators
@@ -23,8 +22,12 @@ patch-2
 	do
 	{
 		rollADie1 = rand() % 6 + 1;  // in the range from 1 - 6
+patch-2
 		rollADie2 = rand() % 6 + 1;  // in  range of 1 - 6
 		rollADie2 = rand() % 6 + 1;  // in  range of 1 - 6
+
+		rollADie2 = rand() % 6 + 1;  // in  range
+ main
 
 		printf("Dice #1 is %i\n", rollADie1);
 		printf("Dice #2 is %i\n", rollADie2);
