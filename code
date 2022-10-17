@@ -1,11 +1,20 @@
+patch-2
+ 
+
  patch-2
  #include <stdio.h>
  #include <stdio.h>
 #include<math.h>
+ main
   #include <stdio.h>
+
+ patch-2
+
+ int main()  {
 
 main
  void main()  {
+ main
 
 	int rollADie, totalDice, key = 0, key2 = 0, end = 0;
  patch-1
@@ -32,8 +41,7 @@ patch-2
 		printf("Dice #1 is %i\n", rollADie1);
 		printf("Dice #1 is %i\n", rollADie1);
 		printf("Dice #2 is %i\n", rollADie2);
-		printf("Dice #2 is %i\n", rollADie2);
-
+		
 		totalDice = rollADie1 + rollADie2;
  patch-4
 		printf("The total of both dice is %i\n", totalDice);
