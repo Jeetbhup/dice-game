@@ -6,7 +6,7 @@
   #include <conio.h>
 
 main
- int main()  {
+ void main()  {
 
 	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
  patch-1
