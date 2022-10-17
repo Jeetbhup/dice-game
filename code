@@ -1,7 +1,7 @@
  patch-2
  #include <stdio.h>
  #include <stdio.h>
-
+#include<math.h>
   #include <stdio.h>
   #include <conio.h>
 
