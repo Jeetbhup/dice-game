@@ -30,7 +30,7 @@ patch-2
 
 	do
 	{
-		rollADie1 = rand() % 6 + 1;  // in the range from 1 - 6
+		rollADie1 = rand() % 6 + 1;  // in the range from (1 - 6)
 patch-2
 		rollADie2 = rand() % 6 + 1;  // in  range of 1 - 6
 		rollADie2 = rand() % 6 + 1;  // in  range of 1 - 6
