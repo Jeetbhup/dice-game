@@ -22,7 +22,7 @@ main
 	srand(time(NULL));  // call thiss only once – seeds the random generators
 
 patch-2
-	srand(time(NULL));  // call thiss only one – seeds the random generators
+	srand(time(NULL));  // call tthiss only one – seeds the random generators
 
 	srand(time(NULL));  // call thisss only once – seeds the random generators
  main
