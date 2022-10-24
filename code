@@ -35,7 +35,7 @@ patch-2
 		rollADie2 = rand() % 6 + 1;  // in  range of 1 - 6
 		rollADie2 = rand() % 6 + 1;  // in  range of 1 - 6
 
-		rollADie2 = rand() % 6 + 1;  // in  range
+		rollADie2 = rand() % 6 + 1;  // in  ranges
  main
 
 		printf("Dice #1 is %i\n", rollADie1);
